@@ -1,0 +1,15 @@
+{
+  "base": "template.clip",
+  "output": "new-illustration.clip",
+  "layers": [
+    { "name": "下描き", "opacity": 20 },
+    { "name": "下地", "parent": "塗り" },
+    { "name": "影1", "parent": "塗り", "blend": "multiply", "opacity": 50 },
+    { "name": "影2", "parent": "塗り", "blend": "multiply", "opacity": 30 },
+    { "name": "ハイライト", "parent": "塗り", "blend": "add", "opacity": 50 },
+    { "name": "細部", "parent": "線画" },
+    { "name": "主線", "parent": "線画" },
+    { "name": "オーバーレイ", "parent": "効果", "blend": "overlay", "opacity": 30 },
+    { "name": "グロー効果", "parent": "効果", "blend": "add-glow", "opacity": 50 }
+  ]
+}

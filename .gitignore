@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.db
+samples/
+packages/clip-clai/tests/fixtures/*.clip
+*.clip
+*.psd
+*.bak
+tmp_review.txt
+final_review.txt

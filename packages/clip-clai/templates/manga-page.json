@@ -1,0 +1,14 @@
+{
+  "base": "template.clip",
+  "output": "new-manga-page.clip",
+  "layers": [
+    { "name": "ネーム", "opacity": 15 },
+    { "name": "下描き", "opacity": 20 },
+    { "name": "ベタ", "parent": "塗り" },
+    { "name": "トーン影", "parent": "塗り", "blend": "multiply", "opacity": 50 },
+    { "name": "ペン入れ 背景", "parent": "線画" },
+    { "name": "ペン入れ 人物", "parent": "線画" },
+    { "name": "集中線", "parent": "効果" },
+    { "name": "フラッシュ", "parent": "効果", "blend": "add-glow", "opacity": 80 }
+  ]
+}
